@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="icon"
+      href="png/weather-svgrepo-com.svg"
+      <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet" />
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="search">
+        <input type="text" placeholder="City Name" spellcheck="false" />
+        <button>
+          <img src="png/search-globe-svgrepo-com.svg" alt="search" />
+        </button>
+      </div>
+      <div class="error">
+        <p>Invalid city name</p>
+      </div>
+      <div class="weather">
+        <img src="png/rain.svg" alt="rain" class="weather-icon" />
+        <h1 class="temp"></h1>
+        <h2 class="city">New Delhi</h2>
+        <div class="details">
+          <div class="col">
+            <img src="png/humidity.svg" alt="humidity" />
+            <div>
+              <p class="humidity">50%</p>
+              <p><b>Humidity</b></p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="png/wind.svg" alt="wind" />
+            <div>
+              <p class="wind">50 kmph</p>
+              <p><b>Wind Speed</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
